@@ -1,0 +1,40 @@
+div {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    animation-name: rotate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+@keyframes rotate {
+    0% {
+        background-color: darkmagenta;
+        width: 250px;
+        height: 250px;
+        transform: translateX(250px);
+    }
+    25% {
+        background-color: aquamarine;
+    }
+
+    50% {
+        background-color: brown;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        transform: translateX(500px);
+    }
+    75% {
+        background-color: aquamarine;
+    }
+
+    100% {
+        background-color: darkmagenta;
+        width: 250px;
+        height: 250px;
+        transform: translateX(250px);
+    }
+}
